@@ -282,7 +282,7 @@ function InstallXO {
 	echo
 	if [[ ! -d "$XO_SRC_DIR" ]]; then
 		mkdir -p "$XO_SRC_DIR"
-		git clone https://github.com/vatesfr/xen-orchestra "$XO_SRC_DIR"
+		git clone https://github.com/jereksel/xen-orchestra "$XO_SRC_DIR"
 	else
 		cd "$XO_SRC_DIR"
 		git pull
